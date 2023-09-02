@@ -4,7 +4,7 @@ const colors = require("colors")
 const mongoose = require("mongoose")
 const app = express()
 require('dotenv').config()
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 5050
 const URL = process.env.mongoDbURL
 const todoRoute = require('./Routes/Todo')
 
