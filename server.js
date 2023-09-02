@@ -5,7 +5,7 @@ const mongoose = require("mongoose")
 const app = express()
 require('dotenv').config()
 const PORT = process.env.PORT || 5050
-const URL = process.env.mongoDbURL
+const URL = process.env.mongoDb_URL
 const todoRoute = require('./Routes/Todo')
 
 const connectToDataBase = async() =>{
